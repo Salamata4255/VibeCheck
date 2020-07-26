@@ -1,0 +1,53 @@
+/* Name of file: contact.css*/
+/* Purpose of file: Creates a page for users to give us feedback */
+/* Version of file: modified on June 07, 2020 */
+/* Authors of file: Salamata Bah & Abigail */
+/* It was designed by Salamata Bah and improved by Abigail*/
+/* Dependencies of file: runs with contact.html */
+
+
+body{
+    background: url("back_contd.jpg") ;
+    background-size: 25%;
+}
+.comm{
+    padding-top: 8%;
+    text-align: center;
+    color: white;
+}
+.comm h1{
+    font-size: 30px;
+}
+.comm h2{
+    font-size: 20px;
+}
+.cont_form{
+    text-align: center;
+    color: rgb(255, 251, 0);
+}
+.form_control{
+    width: 75%;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid gray;
+    color: white;
+    font-size: 18px;
+    margin-bottom: 16px;
+}
+input{
+    height: 45px;
+}
+form .submit
+{
+    background: yellow;
+    border-color: transparent;
+    color: black;
+    font-size: 25px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    height: 50px;
+}
+form .submit:hover{
+    background-color: gold;
+    cursor: pointer;
+}

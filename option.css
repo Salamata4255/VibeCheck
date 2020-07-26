@@ -1,0 +1,46 @@
+/* Name of file: option.css*/
+/* Purpose of file: formats the option.html*/
+/* Version of file: modified on May 24, 2020 */
+/* Author of file:  Abigail */
+/* Dependencies of file: runs with option.html */
+
+
+body{
+    background: url("back_option2a.jpg") no-repeat center fixed;
+    background-size: cover;
+}
+button{
+    background: white;
+    font-size: 45px;
+    padding: 1%;
+    margin-left: 15%;
+    border: none;
+}
+button:hover{
+    background: black;
+    color: white;
+    font-style: italic;
+    border-width: 14px;
+}
+
+.butts{
+    padding-top: 16%;
+    margin-left: 15%;
+}
+.desc, .desc2{
+    width: 15%;
+    text-transform: capitalize;
+    text-align: center;
+    background-color: black;
+    opacity: 0.6;
+    font-weight: bolder;
+    font-style: oblique;
+    color: yellow;
+    margin-left: 27%;
+}
+.desc{
+    margin-left: 27%;
+}
+.desc2{
+    margin-left: 57%;
+}

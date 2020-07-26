@@ -1,0 +1,35 @@
+/* Name of file: selection.css*/
+/* Purpose of file: formats selection of dine in and fast-food*/
+/* Version of file: modified on April 16, 2020 */
+/* Author of file:  Abigail */
+/* Dependencies of file: runs with all pages  */
+
+
+
+.selections{
+    float: right;
+    list-style: none;
+    margin-top: 25px;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.selections li{
+    padding-left: 10px;
+    padding-right: 55px;
+    display: inline-block;
+}
+
+.selections li a{
+    color: white;
+}
+
+.selections li a:hover{
+    color: #233342;
+}
+
+.logo img{
+    float: left;
+    margin-top: 5px;
+    height: 90px;
+}

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>New Deck Tavern</title>
+    <link rel="stylesheet" href="restmenuPage.css">
+    <style>
+        .collapse{
+            color: black;
+            margin-left: 12.5%;
+        }
+    </style>
+</head>
+<body>
+    <header><img src="NDT.png" alt="Logo" class="img"></header>
+    <p style="text-align: center;"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3058.457760712673!2d-75.19480098518973!3d39.95351707942163!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c6c650880665a1%3A0x3d01d5f9acecb474!2sNew%20Deck%20Tavern!5e0!3m2!1sen!2sus!4v1583433831396!5m2!1sen!2sus" style="border: 2px solid black; width: 350px;height: 200px; position: inherit;padding-right: 50% padding-left:50%"></iframe></p><p class="ptext">Adress: 3408 Sansom St, Philadelphia, PA 19104 <br>
+    Phone Number: (215) 386-4600</p>
+    <table>
+        <tr>
+            <th>Days</th>
+            <th>Hours</th>
+        </tr>
+        <tr>
+            <td>Sunday<br>
+                Monday<br>
+                Tuesday<br>
+                Wednesday<br>
+                Thursday<br>
+                Friday<br>
+                Sunday<br>
+            </td>
+            <td>Closed<br>
+                11AM - 12am<br>
+                11AM - 2am<br>
+                11AM - 2am<br>
+                11AM - 2am<br>
+                11AM - 2am<br>
+                11AM - 2am<br>
+            </td>
+        </tr>
+    </table>
+	<form action="/fav" method="post">
+        <button name="favorite" type="submit" value="New_Deck_Tavern.html">Add to Favorites</button>
+    </form> 
+    <h2>Menu</h2>
+    <button type="button" class="collapse">Homemade Soups and Salads</button>
+    <div class="pforopt">
+        <ul>
+            <li>Loaded Baked Popato Soup<span class="itemprice">cup $5.00; bowl $6.00</span></li>
+            <li>French Onion Soup<span class="itemprice">$6.00</span></li>
+            <li>The Deck's classic Chili<span class="itemprice">cup $5.00; bowl $6.00</span></li>
+            <li>Honey Crisp Chicken Salad<span class="itemprice">$12.00</span></li>
+            <li>Cottage Salad<span class="itemprice">$8.00</span></li>
+            <li>Mountain Salad<span class="itemprice">$13.00</span></li>
+        </ul>
+    </div>
+    <button type="button" class="collapse">Starter</button>
+    <div class="pforopt">
+        <ul>
+            <li>Chicken Quesadillas<span class="itemprice">$10.00</span> </li>
+            <li>Wings<span class="itemprice">$11.00</span> </li>
+            <li>Hummus Platter<span class="itemprice">$12.00</span> </li>
+            <li>Cheesesteak Eggrolls<span class="itemprice">$10.00</span> </li>
+            <li>Irish Poutine Fries<span class="itemprice">$10.00</span> </li>
+            <li>Nachos Supreme<span class="itemprice">$9.00</span> </li>
+        </ul>
+    </div>
+    <button type="button" class="collapse">Wraps</button>
+    <div class="pforopt">
+        <ul>
+            <li>Grilled Vegetable Wrap<span class="itemprice">$10.00</span> </li>
+            <li>Buffalo Chicken Wrap<span class="itemprice">$12.00</span> </li>
+            <li>California Club Wrap<span class="itemprice">$11.00</span> </li>
+            <li>Crispy Chicken BLT Wrap<span class="itemprice">$11.00</span> </li>
+
+        </ul>
+    </div>
+    <button type="button" class="collapse">Deck Deliciousness</button>
+    <div class="pforopt">
+        <ul>
+            <li>Bangers and Mash<span class="itemprice">$14.00</span> </li>
+            <li>Ultimate Fish and Chips<span class="itemprice">$16.00</span> </li>
+            <li>Sizziling Fajitas<span class="itemprice">$14.00</span> </li>
+            <li>Parmesan Chicken<span class="itemprice">$15.00</span> </li>
+
+        </ul>
+    </div>
+<script>
+    let coll = document.getElementsByClassName("collapse");
+    let i;
+    for (i = 0; i < coll.length; i++) {
+        coll[i].addEventListener("click", function() {
+            this.classList.toggle("active");
+            let content = this.nextElementSibling;
+            if (content.style.display === "block") {
+                content.style.display = "none";
+            } else {
+                content.style.display = "block";
+            }
+        });
+    }
+</script>
+</body>
+</html>

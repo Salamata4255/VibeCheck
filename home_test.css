@@ -1,0 +1,45 @@
+/* Name of file: home_test.css*/
+/* Purpose of file: makes main page nicer*/
+/* Version of file: modified on June 07, 2020 */
+/* Authors of file: Salamata Bah & Abigail */
+/* It was designed by Salamata Bah and improved by Abigail*/
+/* Dependencies of file: runs with about.html */
+
+body{
+    background: url("back_home.jpg") no-repeat center fixed;
+    background-size: cover;
+}
+
+.intro{
+    padding-top: 14%;
+    text-align: center;
+}
+.team{
+    padding-top: 14%;
+    text-align: center;
+    color: black;
+}
+
+.intro a{
+    color: black;
+}
+.team a{
+    color: black;
+}
+p{
+    font-size: 60px;
+    font-weight: bolder;
+    color: black;
+    background-color: yellow;
+    width: 55%;
+    margin-left: 23%;
+}
+
+button{
+    font-size: 50px;
+    border: none;
+    background-color: rgb(0, 81, 255);
+}
+a:hover{
+    color: #233342;
+}

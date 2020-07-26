@@ -1,0 +1,99 @@
+<!--Name: WawaMarket.html-->
+<!--Purpose: displays information about Wawa on Market  -->
+<!--Version: Lastly modified on April 24, 2020-->
+<!--Author: Abigail -->
+<!--Dependencies: runs with restmenuPage.css-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>McDonald's</title>
+    <link rel="stylesheet" href="restmenuPage.css">
+    <style>
+        .collapse{
+            color: black;
+            margin-left: 12.5%;
+        }
+    </style>
+</head>
+<body>
+    <header><img src="wawa.jpg" alt="Wawa Picture" class="img"></header>
+    <p class="ptext">3300 Market St, Philadelphia, PA 19104<br>
+        (215)-375-7996</p>
+    <table>
+        <tr>
+            <th>Days</th>
+            <th>Hours</th>
+        </tr>
+        <tr>
+            <td>Sunday<br>
+                Monday<br>
+                Tuesday<br>
+                Wednesday<br>
+                Thursday<br>
+                Friday<br>
+                Saturday
+            </td>
+            <td>Open 24 Hours<br>
+                Open 24 Hours<br>
+                Open 24 Hours<br>
+                Open 24 Hours<br>
+                Open 24 Hours<br>
+                Open 24 Hours<br>
+                Open 24 Hours<br>
+            </td>
+        </tr>
+    </table>
+    <form action="/fav" method="post">
+        <button name="favorite" type="submit" value="WawaMarket.html">Add to Favorites</button>
+    </form> 
+    <h2>Menu</h2>
+    <button type="button" class="collapse">Entrees</button>
+    <div class="pforopt">
+        <ul>
+            <li>Turkey Veggie</li>
+            <li>Pastrami & Rye</li>
+            <li>Roast Beef</li>
+            <li>Ham & Swiss</li>
+            <li>Hoagies</li>
+            <li>Sourdough Melts</li>
+            <li>Flatbreads</li>
+            <li>Quesadillas</li>
+            <li>Roasted Chicken</li>
+            <li>Burritos</li>
+            <li>Club Sandwiches</li>
+            <li>Deli Sandwiches</li>
+        </ul>
+    </div>
+    <button type="button" class="collapse">Sides</button>
+    <div class="pforopt">
+        <ul>
+            <li>Chicken Noodle Soup</li>
+            <li>Chicken Corn Chowder</li>
+            <li>New England Clam Chowder</li>
+            <li>Baked Potato & Cheddar with Bacon</li>
+            <li>Broccoli Chedder</li>
+            <li>Tomato Basil Bisque</li>
+            <li>White Chicken Chili</li>
+            <li>Mashed Potatoes</li>
+            <li>Mac & Cheese</li>
+            <li>Meatballs</li>
+            <li>Chili</li>
+            <li>Stuffing</li>
+        </ul>
+    </div>
+    <button type="button" class="collapse">Drinks</button>
+    <div class="pforopt">
+        <ul>
+            <li>Coffee</li>
+            <li>Bottled Beverages</li>
+            <li>Energy Drinks</li>
+            <li>Soda</li>
+            <li>Frozen Beverages</li>
+            <li>Milk</li>
+        </ul>
+    </div>
+<script src="for_butt.js"></script>
+</body>
+</html>

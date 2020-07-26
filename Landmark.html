@@ -1,0 +1,91 @@
+<!--Name: Landmark.html-->
+<!--Purpose: displays information about Landmark  -->
+<!--Version: Lastly modified on May 24, 2020-->
+<!--Author: Tanvi -->
+<!--Dependencies: runs with restmenuPage.css-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>LandmarkAmericana</title>
+    <link rel="stylesheet" href="restmenuPage.css">
+    <style>
+        .collapse{
+            color: black;
+            margin-left: 12.5%;
+        }
+    </style>
+</head>
+<body>
+    <header><img src="LandmarkAmericana.png" alt="LandmarkAmericana Picture" class="img"></header>
+    <p style="text-align: center;"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3058.3500111357057!2d-75.19277868518964!3d39.95592657942142!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c6c651c7f96e09%3A0xcc2a50816a20f1de!2sLandmark%20Americana%2C%20University%20City!5e0!3m2!1sen!2sus!4v1583415269551!5m2!1sen!2sus" style="border: 2px solid black; width: 350px;height: 200px; position: inherit;padding-right: 50% padding-left:50%"></iframe></p> <p class="ptext">Adress: 3333 Market St, Philadelphia, PA 19104 <br>
+    Phone Number: (215) 222-4500</p>
+    <table>
+        <tr>
+            <th>Days</th>
+            <th>Hours</th>
+        </tr>
+        <tr>
+            <td>Sunday<br>
+                Monday<br>
+                Tuesday<br>
+                Wednesday<br>
+                Thursday<br>
+                Friday<br>
+                Sunday<br>
+            </td>
+            <td>Closed<br>
+                11AM - 2am<br>
+                11AM - 2am<br>
+                11AM - 2am<br>
+                11AM - 2am<br>
+                11AM - 2am<br>
+                11AM - 2am<br>
+            </td>
+        </tr>
+    </table>
+    <form action="/fav" method="post">
+        <button name="favorite" type="submit" value="LandmarkAmericana.html">Add to Favorites</button>
+    </form> 
+    <h2>Menu</h2>
+    <button type="button" class="collapse">Soups</button>
+    <div class="pforopt">
+        <ul>
+            <li>CREAM of TOMATO<span class="itemprice">cup $3.99; bowl $5.99</span></li>
+            <li>CHICKEN TORTILLA<span class="itemprice">cup $3.99; bowl $5.99</span></li>
+            <li>SEAFOOD BISQUE<span class="itemprice">cup $4.99; bowl $6.99</span></li>
+
+        </ul>
+    </div>
+    <button type="button" class="collapse">Salad</button>
+    <div class="pforopt">
+        <ul>
+            <li>JERK SALMON<span class="itemprice">$11.99</span> </li>
+            <li>COBB<span class="itemprice">$11.99</span> </li>
+        </ul>
+    </div>
+    <button type="button" class="collapse">Sandwiches</button>
+    <div class="pforopt">
+        <ul>
+            <li>SPICY CHICKEN BURRITO<span class="itemprice">$11.99</span> </li>
+            <li>CHICKEN CLUB<span class="itemprice">$11.99</span> </li>
+
+        </ul>
+    </div>
+<script>
+    let coll = document.getElementsByClassName("collapse");
+    let i;
+    for (i = 0; i < coll.length; i++) {
+        coll[i].addEventListener("click", function() {
+            this.classList.toggle("active");
+            let content = this.nextElementSibling;
+            if (content.style.display === "block") {
+                content.style.display = "none";
+            } else {
+                content.style.display = "block";
+            }
+        });
+    }
+</script>
+</body>
+</html>

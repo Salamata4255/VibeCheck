@@ -1,0 +1,41 @@
+/* Name of file: select.css*/
+/* Purpose of file: formats selection of dine in and fast-food*/
+/* Version of file: modified on April 16, 2020 */
+/* Author of file:  Abigail */
+/* Dependencies of file: runs with all other selection_of_dinein.html, selection_of_fastfood.html */
+
+
+body{
+    background-image: url("drivethru.png");
+}
+h{
+    display: block;
+    font-size: 300%;
+    text-align: center;
+    border: 2px solid black;
+    color: yellow;
+    height: 1.5em;
+    width: 10em;
+    background-color:blueviolet;
+    margin: auto;
+    font-family: serif;
+    border-radius: 80px;
+}
+div{
+    display:block;
+    background-color: pink;
+    border-color: blue;
+    height: 6em;
+    width: 35em;
+    padding:1em;
+    border-style: solid;
+    margin: auto;
+}
+header{
+    font-size: 30px;
+    color:darkred;
+    font-style: italic
+}
+a:hover{
+    color: blue;
+}

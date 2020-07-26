@@ -1,0 +1,13 @@
+/* Name of file: dinein.css*/
+/* Purpose of file: formats dinein page*/
+/* Version of file: modified on April 16, 2020 */
+/* Author of file:  Abigail */
+/* Dependencies of file: runs with dine_in.html */
+
+body{
+    background: url("dineinbg.png") center fixed;
+    background-size: cover;
+}
+h1{
+    padding-top: 10%;
+}

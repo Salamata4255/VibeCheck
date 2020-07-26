@@ -1,0 +1,94 @@
+/* Name of file: restmenuPage.css*/
+/* Purpose of file: formats all the restaurants*/
+/* Version of file: modified on April 16, 2020 */
+/* Author of file:  Abigail */
+/* Dependencies of file: runs with all other restaurants pages */
+
+header{
+    font-weight: bold;
+    text-align: center;
+    font-size: 40px;
+    color: #df0000;
+}
+h2{
+    text-align: center;
+    font-style: oblique;
+    color: #df0000;
+    font-size: 50px;
+    margin-bottom: 0px;
+}
+.img{
+    margin-top: 2%;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 30%;
+    border-width: 5px;
+    border-style: double;
+    border-radius: 15px;
+}
+.ptext{
+    font-weight: normal;
+    font-size: 15px;
+    text-align: center;
+    margin-top: 3%;
+}
+.pforopt{
+    font-weight: lighter;
+    font-size: 15px;
+    font-family: Calibri, cursive;
+}
+table, th, tr, td{
+    align-content: center;
+    border-style: double;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    width: 50%;
+}
+button{
+    cursor: pointer;
+    text-align: center;
+    width: 75%;
+    padding: 15px;
+    horiz-align: center;
+    text-decoration: underline;
+    font-weight: bolder;
+}
+button:after{
+    content: '\02795';
+    font-size: 13px;
+    color: black;
+    float: right;
+    margin-left: 5px;
+}
+.active, button:hover{
+    color: red;
+}
+.active:after{
+    content: "\2796";
+}
+.itemprice{
+    float: right;
+    margin-right: 20%;
+}
+
+div{
+    display: none;
+    overflow: hidden;
+}
+li{
+    margin-left: 12%;
+    margin-bottom: 1%;
+}
+body{
+    background: antiquewhite;
+}
+article{
+    text-indent: 4%;
+}
+ul{
+    border-style: none;
+    width: 74%;
+    margin-left: 12.5%;
+}

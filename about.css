@@ -1,0 +1,45 @@
+/* Name of file: about.css*/
+/* Purpose of file: formats the page for information about the project*/
+/* Version of file: modified on June 07, 2020 */
+/* Authors of file: Salamata Bah & Abigail */
+/* It was designed by Salamata Bah and improved by Abigail*/
+/* Dependencies of file: runs with about.html */
+
+body{
+    background: url("back_about3s.jpg") no-repeat center fixed;
+    background-size: cover;
+}
+
+.anim{
+    padding-top: 10%;
+    font-size: 300%;
+    color: black;
+    font-weight: bold;
+}
+.we{
+    animation: weare 5s infinite alternate;
+}
+
+@keyframes weare {
+    from{padding-left: 0}
+    to{padding-left: 13%}
+}
+h1, h2, h3, h4{
+    background-color: yellow;
+    font-size: 180%;
+    color: black;
+    font-weight: bolder;
+    text-align: center;
+}
+h2{
+    width: 80%;
+    margin-left: 10%;
+}
+h3{
+    width: 60%;
+    margin-left: 20%;
+}
+h4{
+    width: 60%;
+    margin-left: 20%;
+}
