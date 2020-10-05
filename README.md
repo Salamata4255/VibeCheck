@@ -1,5 +1,5 @@
 # VibeCheck
-A website that locates restaurants in University City and lets you save your favorite ones.
+A website that locates restaurants in University City and let you save your favorite ones.
 # Audience
 Designed to assist students and faculty in the University City area.
 # Goal
